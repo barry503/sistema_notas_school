@@ -1,0 +1,109 @@
+<!-- SEMINARIO      5             -->                  
+<?php if($Semnota1 >= 0){ ?>
+                 <tr>
+                     <!-- materia -->
+                       <td><?php echo utf8_encode($Seminario); ?></td>
+                    <!-- periodo 1 -->
+                    <td><?php echo $Semnota1; ?></td>
+                    <td><?php echo $Semnota2; ?></td>
+                    <td><?php echo $Semnota3; ?></td>
+                    <td><?php echo $Semnota4; ?></td>
+                    <td><?php echo $Semnota5; ?></td>
+                    <td><?php echo $SemnotaRecu; ?></td>
+                     <td><?php echo $SemPROMEDIO; ?></td>
+                    <!-- fin periodo 1 -->
+
+                 
+                  </tr>
+                  <?php } ?>
+
+<!-- TECNOLOGIA        9          -->                  
+<?php if($Tecnnota1 >= 0){ ?>
+                  <tr>
+                     <!-- materia -->
+                       <td><?php echo utf8_encode($Tecnologia); ?></td>
+                    <!-- periodo 1 -->
+                    <td><?php echo $Tecnnota1; ?></td>
+                    <td><?php echo $Tecnnota2; ?></td>
+                    <td><?php echo $Tecnnota3; ?></td>
+                    <td><?php echo $Tecnnota4; ?></td>
+                    <td><?php echo $Tecnnota5; ?></td>
+                    <td><?php echo $TecnnotaRecu; ?></td>
+                     <td><?php echo $TecnPROMEDIO; ?></td>
+                    <!-- fin periodo 1 -->
+
+                 
+                  </tr>
+                  <?php } ?>
+<!-- QUIMICA Y BILOGIA   10       -->                                    
+<?php if($Qybnota1 >= 0){ ?>
+                  <tr>
+                     <!-- materia -->
+                       <td><?php echo $QUimicaYBiologia; ?></td>
+                    <!-- periodo 1 -->
+                    <td><?php echo $Qybnota1; ?></td>
+                    <td><?php echo $Qybnota2; ?></td>
+                    <td><?php echo $Qybnota3; ?></td>
+                    <td><?php echo $Qybnota4; ?></td>
+                    <td><?php echo $Qybnota5; ?></td>
+                    <td><?php echo $QybnotaRecu; ?></td>
+                     <td><?php echo $QybPROMEDIO; ?></td>
+                    <!-- fin periodo 1 -->
+
+                 
+                  </tr>
+                  <?php } ?>
+<!-- ORIENTACION PARA LA VIDA 11  -->                  
+<?php if($Opvnota1 >= 0){ ?>
+                  <tr>
+                     <!-- materia -->
+                       <td><?php echo utf8_encode($Opv); ?></td>
+                    <!-- periodo 1 -->
+                    <td><?php echo $Opvnota1; ?></td>
+                    <td><?php echo $Opvnota2; ?></td>
+                    <td><?php echo $Opvnota3; ?></td>
+                    <td><?php echo $Opvnota4; ?></td>
+                    <td><?php echo $Opvnota5; ?></td>
+                    <td><?php echo $OpvnotaRecu; ?></td>
+                     <td><?php echo $OpvPROMEDIO; ?></td>
+                    <!-- fin periodo 1 -->
+
+                  </tr>
+                  <?php } ?>
+<!-- LABORATORIO DE CREATIVIDAD 12 -->                                  
+<?php if($Ldcnota1 >= 0){ ?>
+                  <tr>
+                     <!-- materia -->
+                       <td><?php echo utf8_encode($LaboratorioDeCreatividad); ?></td>
+                    <!-- periodo 1 -->
+                    <td><?php echo $Ldcnota1; ?></td>
+                    <td><?php echo $Ldcnota2; ?></td>
+                    <td><?php echo $Ldcnota3; ?></td>
+                    <td><?php echo $Ldcnota4; ?></td>
+                    <td><?php echo $Ldcnota5; ?></td>
+                    <td><?php echo $LdcnotaRecu; ?></td>
+                     <td><?php echo $LdcPROMEDIO; ?></td>
+                    <!-- fin periodo 1 -->
+
+                 
+                  </tr>
+                  <?php } ?>
+
+<!-- # MORAL URBANIDAD   Y CIVICA 17   --> 
+<?php if($MoralYcinota1 >= 0){ ?>
+                  <tr>
+                     <!-- materia -->
+                       <td><?php echo $MoralUrbanidadYCivica; ?></td>
+                    <!-- periodo 1 -->
+                    <td><?php echo $MoralYcinota1; ?></td>
+                    <td><?php echo $MoralYcinota2; ?></td>
+                    <td><?php echo $MoralYcinota3; ?></td>
+                    <td><?php echo $MoralYcinota4; ?></td>
+                    <td><?php echo $MoralYcinota5; ?></td>
+                    <td><?php echo $MoralYcinotaRecu; ?></td>
+                     <td><?php echo $MoralYciPROMEDIO; ?></td>
+                    <!-- fin periodo 1 -->
+
+                 
+                  </tr>
+                  <?php } ?>

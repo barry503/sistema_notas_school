@@ -1,0 +1,38 @@
+todos los archivos contenidos dentro
+de las carpetas de los grados seren 
+de la siguiente manera:
+
+
+Todos los archivos que sean de  materias
+se estructuraran de esta manera:
+
+"M"=Mayuscula significa Modelo
+---seguido del nombre de la materia ---- 
+extencion del archivo o(tipo)
+
+Ejemplo:
+
+                       ESTRUCTURA    modelo----materia-----tipo
+                        CONJETURA      M------len----.php
+                     FINALIZACION            Mlen.php
+
+
+
+
+Todos los archivos que sean de  Conducta
+se estructuraran de esta manera:
+
+"M"=Mayuscula significa Modelo
+---seguido del nombre del grado ---- 
+"C"=Mayuscula significa Conducta
+extencion del archivo o(tipo)
+
+Ejemplo:
+
+                       ESTRUCTURA    modelo----grado-----Conducta-----tipo
+                        CONJETURA      M------1°--------C--------.php
+                     FINALIZACION            M1°C.php
+
+
+
+

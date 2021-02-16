@@ -1,0 +1,49 @@
+<?php 
+
+
+
+
+ #------------------------------------------------------    
+ $Materia17=$base->query("SELECT 
+     /*lenguaje M17 para notas y M17M para materias */
+     M17.carnet,/*campo de comparacion de la tabla 'notas' de la materia lenguaje*/
+     /*Campos de la tabla 'notas' de la materia lenguaje */
+     M17.$A1/'$p1'as MoralUnota1,
+     M17.$A2/'$p2'as MoralUnota2,
+     M17.$A3/'$p3'as MoralUnota3,
+     M17.$A4/'$p4'as MoralUnota4,
+     M17.$A5/'$p5'as MoralUnota5,
+     M17.NRP1 as MoralUnotaRecu,
+     M17.idmaterias,/*campo para comparacion*/
+     M17M.idmaterias,M17M.NOMMAT as MORAL_URBANIDAD_Y_CIVICA/*Campos para comparar  y NOMMAT  a Lleng*/
+
+
+     /*___________________________________Empiesa las personalizaciones de las tablas_________________________________*/     
+       FROM notas M17 /*personalizando notas a M17*/
+        INNER JOIN materias M17M  /*personalizando materias a M17M*/
+     ON
+            /*Comparaciones para una materia*/
+         M17.carnet='$carnet'
+        AND M17.idmaterias= '$M17' /* comparacion entre notas y variable M17*/
+        AND M17M.idmaterias= '$M17'/* comparacion entre materia y variable M17*/
+         /*Comparaciones para una materia*/")->fetchAll(PDO::  FETCH_OBJ);
+
+     foreach ($Materia17 as $tds17 ):        
+
+
+
+#Materia17
+      endforeach;
+
+
+
+
+
+
+
+
+
+
+
+
+ ?>

@@ -1,0 +1,35 @@
+/*clases de un boton naranja en OpcionCarrera.php*/
+.texto-colorNaranja
+  {
+    color: #fd7e14;
+    /**/
+  }
+.fondo-colorNaranja
+ {
+    border-color: #fd7e14;
+    color: #fd7e14;
+  }
+.fondo-colorNaranja:hover
+  {
+    background-color: #e95420;
+    color: #fff;
+  }
+
+
+
+.texto-colorBlue
+  {
+    color: #007bff;
+    /**/
+  }
+.fondo-colorBlue
+ {
+    border-color: #007bff;
+    color: #007bff;
+  }
+.fondo-colorBlue:hover
+  {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

@@ -1,0 +1,69 @@
+ID 	 = identificador de la nota
+carnet 	= codigo del estudiante
+idmaterias = identificador de la materia
+______________________________________________________________________________________________
+PERIODO 1 
+
+EVA1P1  evaluacion 1 	
+EVA2P1  evaluacion 2 	
+EVA3P1  evaluacion 3
+EVA4P1  evaluacion 4	
+EVA5P1  evaluacion 5 	
+
+final perido
+NRP1 	nota final perido 1
+
+______________________________________________________________________________________________
+PERIODO 2 
+
+EVA1P2  evaluacion 1 	
+EVA2P2  evaluacion 2 	
+EVA3P2  evaluacion 3 	
+EVA4P2  evaluacion 4 	
+EVA5P2  evaluacion 5 	
+
+
+
+final perido
+NRP2    nota final perido 2
+
+______________________________________________________________________________________________
+PERIODO 3 
+
+EVA1P3  evaluacion 1 	
+EVA2P3  evaluacion 2 	
+EVA3P3  evaluacion 3 	
+EVA4P3  evaluacion 4 	
+EVA5P3  evaluacion 5 	
+
+
+
+final perido
+NRP3    nota final perido 3
+
+______________________________________________________________________________________________
+PERIODO 4 
+
+EVA1P4  evaluacion 1 	
+EVA2P4  evaluacion 2 	
+EVA3P4  evaluacion 3 	
+EVA4P4  evaluacion 4 	
+EVA5P4  evaluacion 5 	
+
+
+
+final perido
+NRP4    nota final perido 2
+
+
+
+
+
+______________________________________________________________________________________________
+
+Finalizacion de año
+
+NRFINAL 	
+
+NOTAFINAL
+

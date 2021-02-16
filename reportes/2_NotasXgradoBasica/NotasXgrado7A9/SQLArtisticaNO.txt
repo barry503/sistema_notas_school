@@ -1,0 +1,44 @@
+<?php 
+
+
+
+
+
+#------------------------------------------------------
+$Materia18=$base->query("SELECT    
+
+     /* M18 para notas y M18M para materias */
+     M18.carnet,/*campo de comparacion de la tabla 'notas' de la materia */
+     /*Campos de la tabla 'notas' de la materia  */
+     M18.$A1/'$p1'as Artnota1,
+     M18.$A2/'$p2'as Artnota2,
+     M18.$A3/'$p3'as Artnota3,
+     M18.$A4/'$p4'as Artnota4,
+     M18.$A5/'$p5'as Artnota5,
+     M18.NRP1 as ArtnotaRecu,
+     M18.idmaterias,/*campo para comparacion*/
+     M18M.idmaterias,M18M.NOMMAT as Artistica/*Campos para comparar  y NOMMAT  a Artistica*/
+
+
+     /*___________________________________Empiesa las personalizaciones de las tablas_________________________________*/     
+       FROM notas M18 /*personalizando notas a M18*/
+        INNER JOIN materias M18M  /*personalizando materias a M18M*/
+     ON
+            /*Comparaciones para una materia*/
+         M18.carnet='$carnet'
+        AND M18.idmaterias= '$M18' /* comparacion entre notas y variable M18*/
+        AND M18M.idmaterias= '$M18'/* comparacion entre materia y variable M18*/
+         /*Comparaciones para una materia*/ ")->fetchAll(PDO::  FETCH_OBJ);
+
+     foreach ($Materia18 as $tds18 ):
+
+
+
+
+
+#Materia18
+endforeach;
+
+
+
+?>

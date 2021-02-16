@@ -1,0 +1,3 @@
+esta conexion es  para 
+el archivo llamado ver_alumno.php
+en la carpeta de ../../vistas/generadorCarnet/ver_alumno.php

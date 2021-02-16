@@ -1,0 +1,227 @@
+<?php 
+
+
+
+#ARREGLOS DE MATERIAS NO UTILIZAR
+
+#------------------------------------------------------
+ $Materia5=$base->query("SELECT    
+
+     /* M5 para notas y M5M para materias */
+     M5.carnet,/*campo de comparacion de la tabla 'notas' de la materia */
+     /*Campos de la tabla 'notas' de la materia  */
+     M5.$A1/'$p1'as Semnota1,
+     M5.$A2/'$p2'as Semnota2,
+     M5.$A3/'$p3'as Semnota3,
+     M5.$A4/'$p4'as Semnota4,
+     M5.$A5/'$p5'as Semnota5,
+     M5.NRP1 as SemnotaRecu,
+     M5.idmaterias,/*campo para comparacion*/
+     M5M.idmaterias,M5M.NOMMAT as Seminario/*Campos para comparar  y NOMMAT  a Seminario*/
+
+     /*___________________________________Empiesa las personalizaciones de las tablas_________________________________*/     
+	   FROM notas M5 /*personalizando notas a M5*/
+	    INNER JOIN materias M5M  /*personalizando materias a M5M*/
+     ON
+	        /*Comparaciones para una materia*/
+	     M5.carnet='$carnet'
+	    AND M5.idmaterias= '$M5' /* comparacion entre notas y variable M5*/
+	    AND M5M.idmaterias= '$M5'/* comparacion entre materia y variable M5*/
+	     /*Comparaciones para una materia*/ ")->fetchAll(PDO::  FETCH_OBJ);
+
+     foreach ($Materia5 as $tds5 ):
+
+
+#------------------------------------------------------
+$Materia9=$base->query("SELECT    
+
+     /* M9 para notas y M9M para materias */
+     M9.carnet, /*campo de comparacion de la tabla 'notas' de la materia */
+     /*Campos de la tabla 'notas' de la materia  */
+     M9.$A1/'$p1'as Tecnnota1,
+     M9.$A2/'$p2'as Tecnnota2,
+     M9.$A3/'$p3'as Tecnnota3,
+     M9.$A4/'$p4'as Tecnnota4,
+     M9.$A5/'$p5'as Tecnnota5,
+     M9.NRP1 as TecnnotaRecu,
+     M9.idmaterias,/*campo para comparacion*/
+     M9M.idmaterias,M9M.NOMMAT as Tecnologia/*Campos para comparar  y NOMMAT  a Tecnologia*/
+
+
+     /*___________________________________Empiesa las personalizaciones de las tablas_________________________________*/     
+	   FROM notas M9 /*personalizando notas a M9*/
+	    INNER JOIN materias M9M  /*personalizando materias a M9M*/
+     ON
+	        /*Comparaciones para una materia*/
+	     M9.carnet='$carnet'
+	    AND M9.idmaterias= '$M9' /* comparacion entre notas y variable M9*/
+	    AND M9M.idmaterias= '$M9'/* comparacion entre materia y variable M9*/
+	     /*Comparaciones para una materia*/ ")->fetchAll(PDO::  FETCH_OBJ);
+
+     foreach ($Materia9 as $tds9 ):
+
+#------------------------------------------------------
+$Materia10=$base->query("SELECT    
+
+     /* M10 para notas y M10M para materias */
+     M10.carnet,/*campo de comparacion de la tabla 'notas' de la materia */
+     /*Campos de la tabla 'notas' de la materia  */
+     M10.$A1/'$p1'as Qybnota1,
+     M10.$A2/'$p2'as Qybnota2,
+     M10.$A3/'$p3'as Qybnota3,
+     M10.$A4/'$p4'as Qybnota4,
+     M10.$A5/'$p5'as Qybnota5,
+     M10.NRP1 as QybnotaRecu,
+     M10.idmaterias,/*campo para comparacion*/
+     M10M.idmaterias,M10M.NOMMAT as QUimicaYBiologia/*Campos para comparar  y NOMMAT  a QUimicaYBiologia*/
+
+
+     /*___________________________________Empiesa las personalizaciones de las tablas_________________________________*/     
+	   FROM notas M10 /*personalizando notas a M10*/
+	    INNER JOIN materias M10M  /*personalizando materias a M10M*/
+     ON
+	        /*Comparaciones para una materia*/
+	     M10.carnet='$carnet'
+	    AND M10.idmaterias= '$M10' /* comparacion entre notas y variable M10*/
+	    AND M10M.idmaterias= '$M10'/* comparacion entre materia y variable M10*/
+	     /*Comparaciones para una materia*/ ")->fetchAll(PDO::  FETCH_OBJ);
+
+     foreach ($Materia10 as $tds10 ):
+
+#------------------------------------------------------
+$Materia11=$base->query("SELECT    
+
+     /* M11 para notas y M11M para materias */
+     M11.carnet,/*campo de comparacion de la tabla 'notas' de la materia */
+     /*Campos de la tabla 'notas' de la materia  */
+     M11.$A1/'$p1'as Opvnota1,
+     M11.$A2/'$p2'as Opvnota2,
+     M11.$A3/'$p3'as Opvnota3,
+     M11.$A4/'$p4'as Opvnota4,
+     M11.$A5/'$p5'as Opvnota5,
+     M11.NRP1 as OpvnotaRecu,
+     M11.idmaterias,/*campo para comparacion*/
+     M11M.idmaterias,M11M.NOMMAT as Opv/*Campos para comparar  y NOMMAT  a Opv*/
+
+
+     /*___________________________________Empiesa las personalizaciones de las tablas_________________________________*/     
+	   FROM notas M11 /*personalizando notas a M11*/
+	    INNER JOIN materias M11M  /*personalizando materias a M11M*/
+     ON
+	        /*Comparaciones para una materia*/
+	     M11.carnet='$carnet'
+	    AND M11.idmaterias= '$M11' /* comparacion entre notas y variable M11*/
+	    AND M11M.idmaterias= '$M11'/* comparacion entre materia y variable M11*/
+	     /*Comparaciones para una materia*/ ")->fetchAll(PDO::  FETCH_OBJ);
+
+     foreach ($Materia11 as $tds11 ):
+
+#------------------------------------------------------
+$Materia12=$base->query("SELECT    
+
+     /* M12 para notas y M12M para materias */
+     M12.carnet,/*campo de comparacion de la tabla 'notas' de la materia */
+     /*Campos de la tabla 'notas' de la materia  */
+     M12.$A1/'$p1'as Ldcnota1,
+     M12.$A2/'$p2'as Ldcnota2,
+     M12.$A3/'$p3'as Ldcnota3,
+     M12.$A4/'$p4'as Ldcnota4,
+     M12.$A5/'$p5'as Ldcnota5,
+     M12.NRP1 as LdcnotaRecu,
+     M12.idmaterias,/*campo para comparacion*/
+     M12M.idmaterias,M12M.NOMMAT as LaboratorioDeCreatividad/*Campos para comparar  y NOMMAT  a LaboratorioDeCreatividad*/
+
+     /*___________________________________Empiesa las personalizaciones de las tablas_________________________________*/     
+	   FROM notas M12 /*personalizando notas a M12*/
+	    INNER JOIN materias M12M  /*personalizando materias a M12M*/
+     ON
+	        /*Comparaciones para una materia*/
+	     M12.carnet='$carnet'
+	    AND M12.idmaterias= '$M12' /* comparacion entre notas y variable M12*/
+	    AND M12M.idmaterias= '$M12'/* comparacion entre materia y variable M12*/
+	     /*Comparaciones para una materia*/ ")->fetchAll(PDO::  FETCH_OBJ);
+
+     foreach ($Materia12 as $tds12 ):
+
+#------------------------------------------------------
+$Materia17=$base->query("SELECT    
+
+     /* M17 para notas y M17M para materias */
+     M17.carnet,/*campo de comparacion de la tabla 'notas' de la materia */
+     /*Campos de la tabla 'notas' de la materia  */
+     M17.$A1/'$p1'as MoralYcinota1,
+     M17.$A2/'$p2'as MoralYcinota2,
+     M17.$A3/'$p3'as MoralYcinota3,
+     M17.$A4/'$p4'as MoralYcinota4,
+     M17.$A5/'$p5'as MoralYcinota5,
+     M17.NRP1 as MoralYcinotaRecu,
+     M17.idmaterias,/*campo para comparacion*/
+     M17M.idmaterias,M17M.NOMMAT as MoralUrbanidadYCivica/*Campos para comparar  y NOMMAT  a MoralUrbanidadYCivica*/
+
+
+     /*___________________________________Empiesa las personalizaciones de las tablas_________________________________*/     
+       FROM notas M17 /*personalizando notas a M17*/
+        INNER JOIN materias M17M  /*personalizando materias a M17M*/
+     ON
+            /*Comparaciones para una materia*/
+         M17.carnet='$carnet'
+        AND M17.idmaterias= '$M17' /* comparacion entre notas y variable M17*/
+        AND M17M.idmaterias= '$M17'/* comparacion entre materia y variable M17*/
+         /*Comparaciones para una materia*/ ")->fetchAll(PDO::  FETCH_OBJ);
+
+     foreach ($Materia17 as $tds17 ):
+
+
+
+
+
+
+
+
+
+#Materia5
+endforeach;
+
+
+#Materia9
+endforeach;
+#Materia10
+endforeach;
+#Materia11
+endforeach;
+#Materia12
+endforeach;
+
+
+
+#Materia17
+endforeach;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ?>

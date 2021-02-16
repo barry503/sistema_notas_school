@@ -1,0 +1,39 @@
+ 
+/*para ponerle cursor de manita  */
+ .pointerAct {
+    cursor: pointer;
+  }
+
+/*aumentar el icono de image a 100px*/
+  .icoIsti {
+    font-size: 100px; 
+
+  }
+
+
+/*tamaño de la foto de la institucion*/
+.container .imgILogo { 
+
+  width: 200px; 
+  height: 200px;
+}
+
+
+/* media queris para la foto de la institucion*/
+@media (max-width: 800px) {
+   
+    .imgILogo {
+    width: 200px;
+    height:  200px;
+  }
+  }
+@media (min-width: 700px) {
+   
+    .imgILogo {
+    width: 100%;
+    height:  100%;
+  }
+}
+
+
+

@@ -1,0 +1,17 @@
+<!-- cabezera -->
+<?php require'header.php'; ?>
+ 
+
+
+
+
+<!-- Cuerpo de la pagina -->
+
+
+
+
+
+
+
+<!-- pie de pajina -->
+  <?php require'footer.php'; ?>

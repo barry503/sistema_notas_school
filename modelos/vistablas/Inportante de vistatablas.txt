@@ -1,0 +1,6 @@
+las vistas no nesecitan modelos 
+
+porque se toman de la carpeta editablas
+
+sin enbargo si necesitan archivos ajax los cuales 
+contendran la tabla a mostrar.
